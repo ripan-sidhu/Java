@@ -4,7 +4,8 @@ public class BinarySearch {
 	public static void main(String[] args) 
 	{
 		Scanner in=new Scanner(System.in);
-		int i,j,c=0,a[],n,t,mid,u,l,e,flag=0,z;
+		int i,c=0,a[],n,t,mid,u,l,e,flag=0,z;
+		int j;
 		a = new int[100];
 		n=in.nextInt();
 		for(i=0;i<n;i++)
